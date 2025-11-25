@@ -1,7 +1,7 @@
 # Update a rooted Toon 
 
 When running this script on a rooted Toon (thermostat from Eneco - the Netherlands) it will try to connect to the Eneco VPN and upgrade your toon to the version you specify.
-It will backup and repair important files which are overwritten by the upgrade. Also, it will block any other traffic over the VPN so no unwanted service center messages are received or transfered.
+It will backup and repair important files which are overwritten by the upgrade. Also, it will block any other traffic over the VPN so no unwanted service center messages are received or transferred.
 
 The script uses the Toon original files to upgrade the Toon so there is a good chance the upgrade works fine. However sometimes upgrade fails due to misconfigurations of rooted Toons.
 
@@ -29,9 +29,8 @@ With the option -u you can run an unattended firmware upgrade. It will not ask f
 
 ## observed issues
 
-Users reported a few issue's while running the update. Which include:
+Users reported a few issues while running the update. Which include:
 
-- Failed update due to low diskspace. Check (with df -h) if your Toon has enough diskspace for the upgrade. Exact numbers are not yet known but recommend to have at least 10MB diskspace on the Toon free
+- Failed update due to low diskspace. Check (with df -h) if your Toon has enough diskspace for the upgrade. Exact numbers are not yet known but recommend to have at least 10MB diskspace on the Toon free.
 - Failed update due to previous failed manual updates. If previous manual updates (without the script) failed to update the Toon, this script will probably also fail.
-- Problems with connecting to the VPN. Some users have problems with their VPN keys and therefor can not update using the Quby/Eneco sources anymore.
-
+- Problems with connecting to the VPN. Some users have problems with their VPN keys and therefore cannot update using the Quby/Eneco sources anymore.
